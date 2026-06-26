@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8f4f8"/>
+      <stop offset="100%" stop-color="#d1ecf1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg1)"/>
+  <!-- Sink -->
+  <rect x="250" y="180" width="300" height="180" rx="20" fill="#fff" stroke="#1e3a5f" stroke-width="3"/>
+  <ellipse cx="400" cy="270" rx="100" ry="60" fill="#e8f4f8" stroke="#1e3a5f" stroke-width="2"/>
+  <ellipse cx="400" cy="280" rx="15" ry="8" fill="#6b7280"/>
+  <!-- Faucet -->
+  <rect x="385" y="140" width="30" height="60" rx="5" fill="#6b7280"/>
+  <path d="M370 140 Q400 110 430 140" stroke="#6b7280" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Water drops -->
+  <ellipse cx="400" cy="310" rx="4" ry="6" fill="#0B7BA7" opacity="0.7"/>
+  <ellipse cx="395" cy="325" rx="3" ry="5" fill="#0B7BA7" opacity="0.5"/>
+  <ellipse cx="405" cy="320" rx="3" ry="5" fill="#0B7BA7" opacity="0.6"/>
+  <!-- Wrench -->
+  <g transform="translate(580, 200) rotate(30)">
+    <rect x="-8" y="0" width="16" height="120" rx="4" fill="#d97706"/>
+    <path d="M-20 -10 L0 -30 L20 -10 L12 -10 L12 0 L-12 0 L-12 -10Z" fill="#d97706"/>
+  </g>
+  <!-- Text -->
+  <text x="400" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1e3a5f">Professional Plumbing Repairs</text>
+  <text x="400" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Expert sink, faucet & fixture services</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef2f7"/>
+      <stop offset="100%" stop-color="#dce3ed"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg4)"/>
+  <!-- Bathroom scene - bathtub -->
+  <path d="M180 280 L180 220 Q180 180 220 180 L580 180 Q620 180 620 220 L620 280" stroke="#1e3a5f" stroke-width="4" fill="#fff"/>
+  <rect x="175" y="275" width="450" height="12" rx="6" fill="#1e3a5f"/>
+  <!-- Bathtub legs -->
+  <path d="M210 287 Q205 310 215 310" stroke="#6b7280" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M590 287 Q595 310 585 310" stroke="#6b7280" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Shower head -->
+  <rect x="560" y="80" width="8" height="100" fill="#6b7280"/>
+  <rect x="540" y="75" width="50" height="15" rx="7" fill="#6b7280"/>
+  <ellipse cx="565" cy="95" rx="22" ry="8" fill="#4a5568"/>
+  <!-- Water from shower -->
+  <line x1="550" y1="103" x2="548" y2="140" stroke="#0B7BA7" stroke-width="1.5" opacity="0.4"/>
+  <line x1="556" y1="103" x2="554" y2="145" stroke="#0B7BA7" stroke-width="1.5" opacity="0.5"/>
+  <line x1="562" y1="103" x2="560" y2="142" stroke="#0B7BA7" stroke-width="1.5" opacity="0.4"/>
+  <line x1="568" y1="103" x2="566" y2="148" stroke="#0B7BA7" stroke-width="1.5" opacity="0.5"/>
+  <line x1="574" y1="103" x2="572" y2="140" stroke="#0B7BA7" stroke-width="1.5" opacity="0.4"/>
+  <!-- Toilet -->
+  <g transform="translate(130, 200)">
+    <ellipse cx="0" cy="100" rx="35" ry="25" fill="#e5e7eb" stroke="#6b7280" stroke-width="2"/>
+    <rect x="-25" y="60" width="50" height="45" rx="5" fill="#e5e7eb" stroke="#6b7280" stroke-width="2"/>
+    <rect x="-20" y="50" width="40" height="15" rx="8" fill="#d1d5db" stroke="#6b7280" stroke-width="2"/>
+    <rect x="-3" y="42" width="6" height="14" rx="3" fill="#6b7280"/>
+  </g>
+  <!-- Tiles background -->
+  <g opacity="0.15">
+    <line x1="200" y1="80" x2="200" y2="180" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="280" y1="80" x2="280" y2="180" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="360" y1="80" x2="360" y2="180" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="440" y1="80" x2="440" y2="180" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="520" y1="80" x2="520" y2="180" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="180" y1="120" x2="540" y2="120" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="180" y1="150" x2="540" y2="150" stroke="#1e3a5f" stroke-width="1"/>
+  </g>
+  <text x="400" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1e3a5f">Bathroom Renovations</text>
+  <text x="400" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">Complete fixture installation &amp; upgrades</text>
+</svg>
